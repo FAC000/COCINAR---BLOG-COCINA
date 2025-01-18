@@ -1,0 +1,156 @@
+.color1 {
+  color: #558c9e;
+}
+
+.color2 {
+  color: #468b89;
+}
+
+.color3 {
+  color: #c9d9c5;
+}
+
+.color4 {
+  color: #eff0e4;
+}
+
+.color5 {
+  color: #f9f9f9;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  padding: 60px;
+  background-color: #eff0e4 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  top: 0px;
+
+}
+
+.navbar-toggler {
+  color: #c9d9c5 !important;
+  border: 1px solid #c9d9c5;
+}
+
+.collapse {
+  margin-top: 5px;
+}
+
+.collapse:not(.show){
+  border: 1px solid #c9d9c5 !important;
+}
+
+
+.navbar-brand {
+  font-size: 30px;
+  color: #468b89 !important;
+  text-shadow: 3px 4px 2px #c9d9c5;
+}
+
+.active {
+  color: #558c9e !important;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.04);
+  transition: transform 1.2s;
+  color: #558c9e !important;
+}
+
+.nav-link {
+  margin: 0px;
+  color: #558c9e;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.nav-link :hover {
+  color: #558c9e !important;
+}
+
+.nav-link:focus {
+  color: #468b89 !important;
+}
+
+.nav-link.show {
+  color: #558c9e !important;
+}
+
+.dropdown-menu {
+  background-color: #eff0e4;
+  border: 1px solid #eff0e4;
+  --bs-dropdown-link-active-bg: #c9d9c5;
+}
+
+.dropdown-item {
+  color: #558c9e !important;
+  display: inline !important;
+  margin-top: 10px;
+
+}
+
+.span1 {
+  font-size: 35px;
+}
+
+.footerContainer {
+  color: #2f6d6b;
+  min-width: 100%;
+  height: 50px;
+  background-color: #c9d9c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  justify-content: space-around;
+  position: absolute;
+}
+
+.footerParrafo {
+  height: 5px;
+}
+
+.footerIcons i {
+  font-size: 18px;
+  margin: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .dropdown-item {
+    display: block !important;
+  }
+
+  a:hover {
+    transform: none;
+    color: #2f6d6b !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+
+  .navbar {
+    padding: 60px 30px;
+  }
+
+}

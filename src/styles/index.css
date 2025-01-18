@@ -1,0 +1,707 @@
+.color1 {
+    color: #558c9e;
+}
+
+.color2 {
+    color: #468b89;
+}
+
+.color3 {
+    color: #c9d9c5;
+}
+
+.color4 {
+    color: #eff0e4;
+}
+
+.color5 {
+    color: #f9f9f9;
+}
+
+
+/* CARRUSEL HOME */
+
+.carousel {
+    text-align: center;
+    padding-top: 170px;
+    width: 100%;
+    z-index: -1;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+
+}
+
+.carousel-control-next {
+    color: #558c9e !important;
+}
+
+.carousel-caption h3 {
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+
+/* TITULO */
+
+
+
+.tituloPrincipal {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #558c9e;
+    font-family: "Lato";
+    font-size: 50px;
+    font-weight: 800;
+    transform: rotate(-2deg);
+
+}
+
+/* RECETAS SELECTAS */
+
+.selectasCont {
+    margin-top: 40px;
+    background-color: #eff0e4;
+    width: 100%;
+}
+
+.selectasCont h1 {
+    text-transform: uppercase;
+    margin-left: 150px;
+    padding-top: 50px;
+    font-family: "Oswald";
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #468b89;
+    text-shadow: 10px 10px 2px #558c9e42;
+}
+
+hr {
+    width: 88%;
+    margin-left: 120px;
+    color: #558c9e;
+}
+
+
+
+/* RECETAS SELECTAS CARD */
+
+.selectasContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+}
+
+.recetasCard {
+    margin-top: 60px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
+
+.recetasCard img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.recetasCard h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 250px;
+    font-family: "Lato";
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #c9d9c5;
+    text-shadow: 2px 2px 1px #88ab7f;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.recetasCard p {
+    color: #468b89;
+    font-family: "Oswald";
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+
+/* APARTADO HOME */
+
+.apartadoHome {
+    padding-bottom: 200px;
+}
+
+.apartadoContainer {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/background71.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.apartadoParrafo {
+    padding-top: 100px;
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    color: #eff0e4;
+    font-size: 25px;
+    font-family: "Oswald";
+    letter-spacing: 2px;
+    line-height: 50px;
+
+}
+
+.apartadoParrafo button {
+    margin-top: 50px;
+    padding: 0px 30px 0px 30px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: #468b89;
+    color: #f9f9f9;
+    border: 1px solid #c9d9c5;
+}
+
+
+/* ALLLRECETAS  */
+
+.todasContainer {
+    padding-top: 220px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.allContainer {
+    margin: 60px 30px 0px 30px
+}
+
+.allImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.allTitulo {
+    font-size: 25px;
+    font-family: "Oswald";
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    color: #f9f9f9;
+    font-weight: 600;
+    width: 200px;
+    position: relative;
+    transform: translateY(-50px);
+    opacity: 0;
+
+    transition: transform 1s ease, opacity 0.3s ease;
+}
+
+.contentImg:hover .allTitulo {
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+
+.allImg img {
+    width: 260px;
+    height: 240px;
+    display: block;
+    border-radius: 20px;
+    border: 4px solid #c9d9c5;
+
+}
+
+.contentImg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #558c9ea8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    flex-direction: column;
+    color: #f9f9f9;
+    border-radius: 20px;
+}
+
+.contentImg:hover {
+    opacity: 1;
+    transition: opacity 0.10s;
+
+}
+
+/* DETALLES */
+
+
+.detailsContainer {
+    width: 100%;
+    padding-top: 200px;
+}
+
+.detailsDetails {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.detailsDetails h1 {
+    padding: 10px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    font-style: normal;
+    font-family: "Oswald";
+    color: #468b89;
+    text-shadow: 3px 2px 1px #f9f9f9;
+}
+
+.detailsHr {
+    width: 30%;
+    margin: 0px;
+    justify-self: center;
+    border: 1px solid #468b89;
+}
+
+.detailsDetails h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-style: "Oswald";
+    letter-spacing: 3px;
+    color: #c9d9c5;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.detailsrecetaImg {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    filter: brightness(80%);
+}
+
+.detailsDetails p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #468b89;
+    letter-spacing: 3px;
+    width: 45%;
+    margin-top: 30px;
+    justify-self: center;
+    font-weight: 400;
+}
+
+.detailsDatos {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+
+    width: 200px;
+    height: 80px;
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    box-shadow: 5px 0px 10px #c9d9c5;
+    margin: 280px 80px 100px 80px;
+    text-align: center;
+}
+
+.box h3 {
+    padding-top: 10px;
+    font-size: 15px;
+    color: #558c9e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.boxHr {
+    width: 30%;
+    border: 1px solid #468b89;
+    margin: 0px;
+    justify-self: center;
+}
+
+.detailsDatos h4 {
+    letter-spacing: 3px;
+    color: #558c9e;
+    font-weight: 300;
+    text-shadow: 2px 2px 1px #c9d9c5;
+    font-family: 'Lato';
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+.detailsReceta {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+
+}
+
+
+.tab-content h5 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 98%;
+    color: #558c9e;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 3px #468b89;
+}
+
+.divHr {
+    width: 98%;
+}
+
+.hrGaleria {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    width: 20%;
+    justify-self: center;
+    border: 1.5px solid #468b89;
+}
+
+.tab-content ul {
+    margin: 30px 0px 40px 0px;
+    justify-self: center;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #c9d9c5;
+    font-weight: 900;
+    list-style: georgian;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.detailsTab {
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald';
+
+
+}
+
+.tabP {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    justify-self: center;
+    align-content: center;
+    color: #1b5957;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: 300;
+
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #468b89 !important;
+}
+
+
+
+.tab-content {
+    padding: 50px 0px 50px 0px;
+    align-content: center;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .apartadoParrafo {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .carousel-control-prev {
+        height: 100px !important;
+        margin-top: 300px !important;
+        
+    }
+
+    .carousel-control-next {
+        height: 100px !important;
+        margin-top: 300px !important;
+        
+    }
+
+
+    hr {
+        width: 80%;
+    }
+
+    .apartadoParrafo button {
+        margin-top: 20px;
+    }
+
+    .recetasCard img {
+        width: 200px;
+        height: 180px;
+    }
+
+    .recetasCard h2 {
+        font-size: 15px;
+    }
+
+    .todasContainer {
+        width: 100%;
+    }
+
+    .allImg img {
+        width: 250px;
+        height: 100%;
+    }
+
+    .allDesc {
+        width: 90% !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .selectasContainer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .apartadoParrafo {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .carousel-control-prev {
+        height: 100px !important;
+        margin-top: 250px !important;
+        
+    }
+
+    .carousel-control-next {
+        height: 100px !important;
+        margin-top: 250px !important;
+        
+    }
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+    .allImg img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .allContainer {
+        width: 200px;
+        height: 100%;
+    }
+
+    .contentImg {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+    }
+
+    .detailsDatos {
+        margin-top: 50px;
+    }
+
+    .detailsrecetaImg{
+    
+        margin: 30px 0px 30px 0px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+.box{
+    background-color: #c9d9c500;
+    box-shadow: none;
+}
+}
+
+@media screen and (max-width: 475px) {
+
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+
+
+    .tituloPrincipal {
+        font-size: 45px;
+        width: 80%;
+        justify-self: center;
+        line-height: 60px;
+    }
+
+    .selectasCont h1 {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    hr {
+        margin: auto;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .apartadoParrafo {
+        width: 90%;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .apartadoParrafo button {
+        font-size: 12px;
+        padding: 0px 20px 0px 20px;
+    }
+
+
+    .allImg img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .allContainer {
+        width: 200px;
+    }
+
+    .detailsDatos {
+    padding-top: 80px;
+    }
+
+    .detailsDetails p{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .carousel-item {
+        height: 200px;
+    }
+
+    .carousel-control-prev {
+        height: 100px !important;
+        margin-top: 220px !important;
+        
+    }
+
+    .carousel-control-next {
+        height: 100px !important;
+        margin-top: 220px !important;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .apartadoParrafo {
+        padding-top: 70px;
+        width: 90%;
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+    .apartadoParrafo button {
+        font-size: 12px;
+        padding: 0px 15px 0px 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 325px) {
+
+    .carousel-item {
+        height: 150px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 15px;
+    }
+
+    .tituloPrincipal {
+        font-size: 40px;
+    }
+
+    .selectasCont h1 {
+        font-size: 25px;
+    }
+
+    .apartadoParrafo {
+        padding-top: 30px;
+        width: 90%;
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+
+    .apartadoParrafo button {
+        font-size: 10px;
+        padding: 0px 15px 0px 15px;
+    }
+
+.box {
+    margin: 300px 20px 50px 20px;
+}
+
+}
